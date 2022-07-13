@@ -84,7 +84,7 @@ list-style: none;
 }
 h2{
   text-align: center;
-  margin-top: 15px;
+  margin-top: 30px;
   color: #FF4E17;
 }
 .parrafo_h4{
@@ -198,20 +198,16 @@ h5{
   text-align: center;
   font-size: 25px;
 }
-.card{
-  width: 500px;
-  height: 300px;
-  background: rgba(229, 229, 229, 0.67);
-  border-radius: 44px;
+.tarjeta_beneficios{
+  width: 550px;
   margin: 0 auto;
-  top:30px;
 }
 .separador{
   margin-top: 80px;
 }
 /*section5*/
 .img_final{
-  padding: 2px;
+  width: 200px;
 }
 
 
