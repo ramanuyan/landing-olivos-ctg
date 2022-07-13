@@ -1,0 +1,223 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "comfortaa";
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*section1*/
+#main-header{
+display: flex;
+justify-content: space-between;
+}
+ul{
+
+display: flex;
+justify-content:end ;
+list-style: none;
+}
+
+.titulo1{
+  text-align: center;
+  color: #FF4E17;
+  font-weight: 700;
+  font-size: 70px;
+}
+.parrafo_titulo1{
+  text-align: center;
+  font-size: 40px;
+}
+.section1{
+  justify-content: space-evenly;
+}
+h2{
+  text-align: center;
+  margin-top: 15px;
+  color: #FF4E17;
+}
+.parrafo_h4{
+  text-align: center;
+  margin-top: 10px;
+}
+.content{
+  border:2px solid rgba(229, 229, 229, 0.67);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  width: 500px;
+  height: 600px;
+}
+.formulario{
+  margin: 0 20px;
+}
+.form-check{
+  margin: 0 20px;
+}
+.button{
+  text-align: center;
+  margin-top: 60px;
+}
+.btn_button{
+  background-color: #FF4E17;
+  border: none; border-radius: 7px;
+  color: #fff;
+  width: 430px;
+  height: 40px;
+}
+.parrafo_imagen1{
+  font-size: 30px;
+  line-height: 44px;
+}
+
+/*section2*/
+.mejor_opcion{
+  text-align: center;
+  font-size: 40px;
+  color: #fff;font-weight: 700;
+}
+.row{
+  margin-top: 80px;
+  
+}
+.img_medio{
+  margin-top:  20px;
+}
+.section2{
+  background: url(https://i.ibb.co/JKR7St2/Group-24.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 700px;
+  margin-top: 40px;
+}
+.tu_mejoropc{
+  text-align: center;
+  font-size: 35px;
+  margin: 0 20px ;
+  color: #fff;
+  line-height: 40px;
+}
+.imagenes_section2{
+  margin: 0 auto;
+}
+
+/*section3*/
+h4{
+  text-align: center;
+  color: #FF4E17;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+.parrafo_h4{
+  font-size: 25px;
+}
+.imagen_empresas{
+  border:2px solid rgba(229, 229, 229, 0.67);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  height: 330px;
+}
+.imagen_personas{
+  border:2px solid rgba(229, 229, 229, 0.67);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  height: 330px;
+}
+.empresas{
+  margin: 0 auto;
+}
+.personas{
+  margin: 0 auto;
+}
+.parrafo_section3{
+  text-align: center;
+  color: #FF4E17;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 44px;
+}
+h5{
+  color: #FF4E17;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+ margin-top:40px;
+}
+.parrafo_h5{
+  text-align: center;
+  font-size: 25px;
+}
+.card{
+  width: 500px;
+  height: 300px;
+  background: rgba(229, 229, 229, 0.67);
+  border-radius: 44px;
+  margin: 0 auto;
+  top:30px;
+}
+.separador{
+  margin-top: 80px;
+}
+/*section5*/
+.img_final{
+  padding: 2px;
+}
+
+
+
+
+.footer_text{
+  text-align: center;
+  margin-top: 60px;
+}
