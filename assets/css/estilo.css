@@ -74,13 +74,14 @@ list-style: none;
 .navbar{
   width: 60px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .titulo1{
   text-align: center;
   color: #FF4E17;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 50px;
   margin-top: 40px;
 }
 .parrafo_titulo1{
@@ -90,11 +91,11 @@ list-style: none;
 .inputs{
   border-radius: 18px;
   font-size: 25px;
-  text-align: center;
+  text-align: start;
   color: #E5E5E5;
   opacity: 0.5;
-  margin:  10px;
   border: solid;
+  margin-top: 10px;
 }
 .section1{
   justify-content: space-evenly;
@@ -119,9 +120,10 @@ h2{
   margin: 0 20px;
 }
 .form-check{
-  margin: 0 20px;
+  margin: 0 25px;
   font-weight: 700;
   font-size: 20px;
+  margin-top: 15px;
 }
 
 .button{
@@ -168,6 +170,7 @@ h2{
   margin: 0 20px ;
   color: #fff;
   line-height: 40px;
+  margin-top: 30px;
 }
 .imagenes_section2{
   margin: 0 auto;
@@ -236,6 +239,15 @@ h5{
   font-size: 30px;
   line-height: 35px;
   text-align: center;
+  color: #FF4E17;
+  font-weight: 500;
+}
+.p2_section5{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
 }
 .boton{
  color: #fff;
@@ -268,20 +280,26 @@ h5{
   margin-top: 40px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 580px){
+@media only screen and (min-width: 320px) and (max-width: 428px){
   .logo_header{
     width: 110px;
   }
+ hr{
+  margin-top: auto;
+ }
   .navbar{
     width: 20px;
   }
   .titulo1{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
   .parrafo_titulo1{
     font-size: 15px;
     font-weight: 900;
+  }
+  h2{
+    font-size: 18px;
   }
   .parrafo_h4{
     font-size: 15px;
@@ -307,30 +325,34 @@ h5{
     height: 40px;
     border-radius: 18px;
     margin-top: 20px;
+    font-size: 14px;
   }
   .content{
     width: 300px;
     height: 460px;
-    margin-top: 15px;
+   
+    margin: 20px auto;
   }
   .parrafo_imagen1{
     font-size: 15px;
     line-height: 20px;
     text-align:center;
     font-weight: 900;
+    margin-top: 20px;
   }
   .mejor_opcion{
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 300;
   }
   .imagenes_section2{
     width: 100px;
     margin-top: 10px;
   }
   .tu_mejoropc{
-    font-size: 15px;
+    font-size: 14px;
     line-height: 20px;
-    width: 150px;
-    margin: auto;
+    width: 210px;
+    margin: 10px auto;
   }
   .row{
     flex-direction: column;
@@ -382,16 +404,23 @@ h5{
   .tarjeta_beneficios{
     padding: 40px;
   }
+ 
  .boton{
   margin-top: 10px;
+  font-size: 15px;
 }
 
   .parrafo_section5{
-    font-size: 15px;
+    font-size: 20px;
     line-height: 20px;
     width: 100%;
     height: 59px;
     left: 101px;
+  }
+  .p2_section5{
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 5px;
   }
  
 }
@@ -401,7 +430,8 @@ h5{
 
 
 .titulo1{
-  font-size: 40px;
+  font-size: 35px;
+  text-align: center;
 }
 .parrafo_titulo1{
   font-size: 25px;
@@ -420,7 +450,7 @@ h5{
   font-size: 18px;
 }
 .form-check-label{
-  font-size: 15px;
+  font-size: 13px;
 }
 .inputs{
   font-size: 15px;
@@ -429,6 +459,7 @@ h5{
   width: 300px;
   height: 40px;
   border-radius: 18px;
+  margin-top: -10px;
 }
 .mejor_opcion{
 font-size: 30px;
@@ -440,7 +471,7 @@ font-size: 30px;
 
 .tu_mejoropc{
   font-size: 20px;
-  line-height: 30px;
+  line-height: 25px;
   width: 250px;
   margin: auto;
 }
@@ -479,5 +510,9 @@ h5{
 .parrafo_section5{
   font-weight: 700;
   font-size: 20px;
+}
+.p2_section5{
+  font-size: 20px;
+  line-height: 25px;
 }
 }
